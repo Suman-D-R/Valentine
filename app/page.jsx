@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import { Analytics } from '@vercel/analytics/react';
 
 function page() {
   const [isTrue, setIsTrue] = useState(false);
